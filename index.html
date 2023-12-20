@@ -3,17 +3,37 @@
     <head>
         <meta charset="UTF-8">
         <style>
-            .topline {
+            .topline 
+            {
                 margin: 10px;
                 display: flex;
                 align-items: center;    
                 justify-content: center;
-                
+            }
+            .circle 
+            {
+                width: 150px; /* Set the width and height to create a circle */
+                height: 150px;
+                border-radius: 50%; /* Makes the element circular */
+                overflow: hidden; /* Clips the content to the shape of the circle */
+                border: 2px solid #ccc; /* Optional border */
+            }
+
+            .circle img 
+            {
+                width: 100%; /* Make the image fill the circular container */
+                height: auto; /* Maintain aspect ratio */
+                display: block; /* Ensure the image doesn't create extra space */
             }
         </style>
         <title>Andrew Martinez</title>
     </head>
     <body>
+    <div class="topline">
+        <div class="circle">
+            <img src="images/amongus.png" alt="Picture of Andrew Martinez">
+        </div>
+    </div>
     <div class="topline">
         <h1> Andrew Martinez </h1>
     </div>
