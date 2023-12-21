@@ -25,7 +25,26 @@
                 height: auto; /* Maintain aspect ratio */
                 display: block; /* Ensure the image doesn't create extra space */
             }
+            .my-button 
+            {
+                /*background-color: #3498db;*/
+                /*color: #fff;*/
+                border: none;
+                padding: 5px 10px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                border-radius: 5px;
+                cursor: pointer;
+                margin-right: 15px;
+            }
         </style>
+        <script>
+            function openNewLocalPage(url) {
+              window.location.href = url;
+            }
+        </script>          
         <title>Andrew Martinez</title>
     </head>
     <body>
@@ -36,6 +55,11 @@
     </div>
     <div class="topline">
         <h1> Andrew Martinez </h1>
+    </div>
+    <div class="topline">
+        <button class="my-button">Home</button>
+        <button class="my-button" onclick="openNewLocalPage">About Me</button>
+        <button class="my-button">Projects</button>
     </div>
     <h1>Hello World</h1>
     <p>I'm hosted with GitHub Pages.</p>
