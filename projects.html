@@ -6,12 +6,14 @@
         <script type="text/javascript" src="scripts.js"></script>   
         <title>Projects</title>
     </head>
-    <body onload="generateTopBar()">
+    <body id="container" onload="generateTopBar()">
         <h1>Projects!</h1>
-        <div class="topline">
-            <button class="my-button" onclick="openNewLocalPage('index.html')">Home</button>
-            <button class="my-button" onclick="openNewLocalPage('aboutme.html')">About Me</button>
-            <button class="my-button">Projects</button>
+        <div id="education">
+            <video width="640" height="360" controls>
+                <source src="videos/projects_communityclimbing.mp4" type="video/mp4">
+                <source src="videos/projects_communityclimbing.mov" type="video/mov">
+                Your browser does not support the video tag.
+            </video>
         </div>
     </body>
 </html>
