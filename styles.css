@@ -20,6 +20,7 @@
     width: 100%; /* Make the image fill the circular container */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure the image doesn't create extra space */
+    border-color: black;
 }
 .my-button 
 {
@@ -35,3 +36,13 @@
     cursor: pointer;
     margin-right: 15px;
 }    
+.menu
+{
+    background-color: rgb(223, 149, 47);
+}
+.topbox
+{
+    flex-direction: column;
+    background-color: rgb(228, 137, 10);
+    margin-bottom: 0px;
+}
